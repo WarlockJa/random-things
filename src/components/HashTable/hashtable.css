@@ -1,0 +1,22 @@
+.header {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 400px;
+  margin: auto;
+
+  .container__form {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+
+    .container__form__label {
+      width: 80px;
+      text-align: start;
+    }
+  }
+}
